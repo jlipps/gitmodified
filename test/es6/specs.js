@@ -5,7 +5,6 @@ import 'mochawait';
 import should from 'should';
 import path from 'path';
 import { getModified } from '../../lib/es5/main';
-console.log(getModified);
 
 describe("getModified", () => {
   describe("with a real repo", () => {
